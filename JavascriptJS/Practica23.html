@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Sin título 1</title>
+   <script type="text/javascript" language="javascript">
+       function ocultar(elemento)
+       {
+          var ele = document.getElementById(elemento);
+          if(ele) 
+              ele.style.display="none"; 
+       }
+       
+       function mostrar(elemento)
+       {
+          var ele = document.getElementById(elemento);
+          if(ele) 
+              ele.style.display="block"; 
+       }
+
+   </script>
+</head>
+
+<body>
+   <div id="miDiv1" style="background-color:aqua" > 
+       Este elemento miDiv1 no está visualizado! 
+   </div>
+   <div id="miDiv2" style="background-color:fuchsia" > 
+       Este elemento miDiv2 no está visualizado! 
+   </div>
+   
+   <input type="text" id="txtDato" />
+   
+   <a href="javascript:ocultar(txtDato.value);">Ocultar</a>
+   <a href="javascript:mostrar(txtDato.value);">Mostrar</a>
+
+</body>
+
+</html>

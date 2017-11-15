@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title></title>
+  <!--
+     Pedir dos numeros y visualizar todos los
+     numeros que hay entre los dos numeros
+  -->
+  <script type="text/javascript" language="javascript">
+       function sacarNumeros(n1,n2)
+       {
+          strSalida="";
+          
+          if(n1<n2)
+          {
+            for(x=n1+1;x<n2;x=x+1)
+               strSalida = strSalida + x + "<br />";
+          
+            document.getElementById('salida').innerHTML=strSalida;;
+          }
+          else
+            document.getElementById('salida').innerHTML="El primero debe ser <span style='color:red'>menor</span> que el segundo";
+       }
+  </script>
+</head>
+
+<body> 
+   Teclea un numero: <input type="text" id="txtN1" />
+   <br />
+   Teclea un numero: <input type="text" id="txtN2" />
+   <input type="button" value="Sacar numeros" 
+     onclick="sacarNumeros(parseInt(txtN1.value),parseInt(txtN2.value))" />
+   <br />
+   <p id="salida"></p>
+</body>
+
+</html>
