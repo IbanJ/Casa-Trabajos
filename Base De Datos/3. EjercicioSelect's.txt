@@ -1,0 +1,36 @@
+-- EJERCICIO 3 DE SELECT's
+-- Northwind
+
+/*
+  Queremos recuperar los datos del producto más caro
+*/
+
+
+
+
+/*
+  Queremos recuperar los datos del producto más caro
+  Si hay empatados queremos que salgan
+*/
+
+
+
+
+/*
+   Sacar el número de ciudades en las que vendemos
+*/
+
+
+
+
+/*
+   Sacar el número de productos
+*/
+
+
+
+
+/*
+  Sacar el número de empleados de la empresa
+  que tiene jefe
+*/

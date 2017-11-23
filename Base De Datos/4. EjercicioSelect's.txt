@@ -1,0 +1,39 @@
+-- EJERCICIO 4 DE SELECT's
+-- Northwind
+
+/*
+  Queremos recuperar el precio unitario medio
+  de los productos de cada categoría
+*/
+
+
+
+/*
+  Queremos recuperar el precio unitario medio
+  de los productos de cada categoría visualizando
+  también el nombre de la categoría
+*/
+
+
+
+
+/*
+  Queremos recuperar el precio unitario medio
+  de los productos de cada categoría visualizando
+  también el nombre de la categoría y excluyendo a 
+  los que tienen un precio medio inferior a 25€
+*/
+
+
+
+
+/*
+  Queremos recuperar el precio unitario medio
+  de los productos de cada categoría visualizando
+  también el nombre de la categoría y excluyendo a 
+  los que tienen un precio medio inferior a 25€.
+  Solo queremos obtener información de los productos 
+  de las categorías 3 a 7.
+*/
+
+

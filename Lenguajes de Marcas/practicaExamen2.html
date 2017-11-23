@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Untitled 1</title>
+		<script type="text/javascript" language="javascript">
+		
+		function fCalculo(Numero)
+		{
+			sumaPares=0; sumaImpares=0; 			 
+			for(x=1;x<=Numero;x=x+1)
+			{ 
+			    if(x%2==0)
+			     
+			        sumaPares = sumaPares + x; 
+			    
+			    else
+			     
+			        sumaImpares = sumaImpares + x; 
+			        
+			    
+   			 } 
+		 
+				
+		document.getElementById("divPares").innerText=sumaPares;
+		
+		document.getElementById("divImpares").innerText=sumaImpares;
+		
+		}
+		
+		
+		</script>
+</head>
+
+<body>
+		<input name="Text1" type="text" id="txtNumero" />
+		<br /><input type="button" value="Calcular"
+		onclick="fCalculo(parseInt(txtNumero.value));" />
+
+
+
+<div id="divPares">
+
+</div>
+
+<div id="divImpares">
+
+</div>
+
+
+
+
+
+</body>
+
+</html>

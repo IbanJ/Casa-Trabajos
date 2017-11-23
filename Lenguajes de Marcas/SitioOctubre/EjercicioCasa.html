@@ -1,0 +1,46 @@
+﻿	<!--
+		Pedir 5 numeros y sacar el menor
+	-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title></title>
+	<script type="text/javascript" language="javascript">
+		function sacarMenor(n1,n2,n3,n4,n5)
+		{
+			if(n1<n2 && n1<n3 && n1<n4 && n1<n5)
+				document.getElementById('salida').innerHTML="El <b>menor<b/> es " + n1;
+			else if(n2<n3 && n2<n4 && n2<n5)
+				document.getElementById('salida').innerHTML="El <b>menor<b/> es " + n2;
+			else if(n3<n4 && n3<n5)
+				document.getElementById('salida').innerHTML="El <b>menor<b/> es " + n3;
+			else if(n4<n5)
+				document.getElementById('salida').innerHTML="El <b>menor<b/> es " + n4;
+			else
+				document.getElementById('salida').innerHTML="El <b>menor<b/> es " + n5;
+		}	
+	</script>
+</head>
+
+<body>
+	Teclea un numero: <input type="text" id="txtN1" />
+	<br />
+	Teclea un numero: <input type="text" id="txtN2" />
+	<br />
+	Teclea un numero: <input type="text" id="txtN3" />
+	<br />
+	Teclea un numero: <input type="text" id="txtN4" />
+	<br />
+	Teclea un numero: <input type="text" id="txtN5" />
+	<br />
+	
+	<input type="button" value="Sacar numeros" 
+	  onclick="sacarMenor(parseInt(txtN1.value),parseInt(txtN2.value),parseInt(txtN3.value),parseInt(txtN4.value),parseInt(txtN5.value))" />
+	<br />
+	<p id="salida"></p>
+</body>
+
+</html>

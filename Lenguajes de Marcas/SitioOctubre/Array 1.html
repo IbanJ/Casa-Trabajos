@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Untitled 1</title>
+   <script language="javascript" type="text/javascript">
+     function fSacarCoches(posicion)
+     {
+       var coches = ["Opel","Mercedes","BMW","Audi"];
+        
+       if(posicion>=1 && posicion<=4)
+          alert(coches[posicion-1]);
+       else
+       	  alert("Posicion NO valida");
+     }
+   </script>r
+</head>
+
+<body>
+  Introduce el lugar del coche:
+  <input type="text" name="txtPosicion" />
+  <input type="button" value="Sacar"
+    onclick="fSacarCoches(parseInt(txtPosicion.value));" />
+</body>
+
+</html>

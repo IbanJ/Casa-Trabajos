@@ -1,0 +1,16 @@
+﻿body  
+{ 
+ font-family: Verdana;  
+ font-size: 20pt;  
+ text-align: right; 
+} 
+div  
+{ 
+ font-family: "Trebuchet MS";  
+} 
+.importante  
+{ 
+ background-color: #ffffde;  
+ border: thin black ridge;  
+ font-family: Franklin Gothic Book;  
+} 

@@ -1,0 +1,11 @@
+﻿div {
+	background-color:blue;
+	color:white;
+}
+div.verdanagrande {
+	font-family:"Comic Sans MS";
+	font-size:100px;
+}
+div.img {
+	border-style:solid; color:black;
+}

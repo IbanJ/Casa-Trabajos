@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Untitled 1</title>
+		<script type="text/javascript" language="javascript">
+		
+		function f_interes(Capital,Interes,Tiempo)
+		{
+		var resultado;
+		resultado=(Capital*Interes*Tiempo)/36000;
+		
+		document.getElementById("salida").innerText=resultado;
+		
+		}
+		
+		
+		</script>
+</head>
+
+<body>
+		<input name="Text1" type="text" id="txtCapital" />
+		<br /><input name="Text2" type="text" id="txtInteres" />
+		<br /><input name="Text3" type="text" id="txtTiempo" />
+
+		<br /><input type="button" value="Calcular"
+		onclick="f_interes(parseInt(txtCapital.value),
+		parseInt(txtInteres.value),parseInt(txtTiempo.value));" />
+
+		
+
+
+<div id="salida">
+
+</div>
+
+
+
+
+</body>
+
+</html>

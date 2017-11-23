@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Untitled 1</title>
+ <script type="text/javascript" language="javascript">
+ 	function fcontrolEdad()
+ 	{
+ 	  alert("Ohayo!");
+ 	  if(txtEdad.value<18)
+ 	  	alert("OMAE WA MENOR DE EDAD DESU");
+ 	}
+ </script>
+</head>
+
+<body>
+	 <table>
+	 	<tr>
+	 	  <td>   <label id="Label1">Nombre</label></td>
+	 	  <td><input name="txtNombre" type="text" /></td>
+	 	</tr>
+	 		<tr>
+	 	  <td>	   <label id="Label1">Edad</label></td>
+	 	  <td>   <input name="txtEdad" type="text" /></td>
+	 	</tr>
+	 </table>
+	   <br />
+	   <input name="Button1" type="button"
+	     onclick="fcontrolEdad();
+	     "  value="Enviar" />
+</body>
+
+</html>

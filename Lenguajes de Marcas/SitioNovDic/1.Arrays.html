@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Untitled 1</title>
+	<script type="text/javascript" language="javascript">
+	   function fCargar()
+	   {
+	   	 numeros = [11,33,44,5,6,7,8,9,12,17];
+	   	 alert("Datos cargados correctamente");
+	   }
+	   
+	   function fMayor()
+	   {
+	   	mayor = numeros[0];
+	   	
+	   	for (x=1;x<=9;x++)
+	   	{
+	   		if(numeros[x] > mayor)
+	   			mayor = numeros [x];
+	   	}
+	   	
+	   	alert(mayor);
+	   }
+	</script>
+
+</head>
+
+<body>
+	<input name="Button1" type="button" 
+	 value="cargar 10 numeros" 
+	 onclick="fCargar()" />
+	<input name="Button1" type="button" 
+	 value="sacar el mayor" 
+	  onclick="fMayor()" />
+</body>
+
+</html>

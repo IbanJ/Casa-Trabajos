@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Sin título 1</title>
+</head>
+
+<body>
+    <script language="javascript" type="text/javascript">
+       var x=1;
+       var y="soy una variable global";
+       function fcalculo()
+       {
+          var x=25;
+          // document.getElementById("salida").innerText=x;
+          alert(x)
+       }       
+    </script>
+    <h1 id="salida"></h1>
+    <h2 id="salida2"></h2>
+    <h3 id="salida3"></h3>
+    <script language="javascript" type="text/javascript">
+       fcalculo();
+      // document.getElementById("salida2").innerText=x;
+      alert(x);
+       // document.getElementById("salida3").innerText=window.y;
+       alert(window.y);
+       x=x+2;
+       fcalculo();
+       alert(x);
+    </script>
+
+</body>
+
+</html>

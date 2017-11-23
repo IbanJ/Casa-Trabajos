@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Untitled 1</title>
+	<script type="text/javascript" language="javascript">
+	   function fCargar()
+	   {
+	   	 numeros = [11,33,11,5,6,7,8,5,7,7];
+	   	 alert("Datos cargados correctamente");
+	   }
+	   
+	   function fAveriguar(num)
+	   {
+		    var veces=0;
+		    for (x=0;x<=9;x++)
+		    {
+		    	if (numeros[x]==num)
+		    		veces = veces + 1;
+		    		
+		    }
+		    alert(veces);
+	   }
+	</script>
+
+</head>
+
+<body>
+	<input name="txtNum" type="text" />
+	<input name="Button1" type="button" 
+	 value="Cargar 10 numeros" 
+	 onclick="fCargar()" />
+	<input name="Button1" type="button" 
+	 value="Averiguar si existe" 
+	  onclick="fAveriguar(parseInt(txtNum.value))" />
+</body>
+
+</html>
