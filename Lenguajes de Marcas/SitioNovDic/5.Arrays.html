@@ -11,29 +11,38 @@
 	   	 alert("Datos cargados correctamente");
 	   }
 	   
-	   function fAveriguar(num)
+	   function fAveriguar()
 	   {
-		    var veces=0;
-		    for (x=0;x<=9;x++)
-		    {
-		    	if (numeros[x]==num)
-		    		veces = veces + 1;
-		    		
-		    }
-		    alert(veces);;;;;;;;
+			for(x=0;x<=9;x++)		
+			{	
+				var veces=0;
+				aux=numeros[x];
+					for(y=x+1;y<=9;y++)
+					{
+						alert(numeros[x]);alert(numeros[y]);
+						if(numeros[x]==numeros[y]
+							&& numeros[y] != -1)
+						{
+						veces = veces + 1;
+						numeros[y]=-1;
+						}
+					}
+					alert(aux);
+					alert(veces);
+			}	
+				
 	   }
 	</script>
 
 </head>
 
 <body>
-	<input name="txtNum" type="text" />
 	<input name="Button1" type="button" 
 	 value="Cargar 10 numeros" 
 	 onclick="fCargar()" />
 	<input name="Button1" type="button" 
-	 value="Averiguar si existe" 
-	  onclick="fAveriguar(parseInt(txtNum.value))" />
+	 value="Sacar contadores" 
+	  onclick="fAveriguar()" />
 </body>
 
 </html>

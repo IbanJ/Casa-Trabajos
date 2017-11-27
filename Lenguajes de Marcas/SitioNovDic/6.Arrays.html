@@ -7,50 +7,47 @@
 	<script type="text/javascript" language="javascript">
 	   function fCargar()
 	   {
-	   	 numeros = [11,33,44,5,6,7,8,9,12,17];
-	   	 alert("Datos cargados correctamente");
+	   	 temp = [-11,-33,44,5,6,7,8,9,1000,-50,18,-650,45,12,72];
+	   	 alert("Temperaturas cargadas correctamente");
 	   }
 	   
-	   function fMayor()
+	   function fTempMayor()
 	   {
-	   	mayor = numeros[0];
 	   	
-	   	for (x=1;x<=9;x++)
+	   	posMayor = 0;
+	   	posMenor = 0;
+	   	
+	   	for (x=1;x<=14;x++)
 	   	{
-	   		if(numeros[x] > mayor)
-	   			mayor = numeros [x];
+	   		if(temp[x] > temp[posMayor])
+	   			posMayor = x;
+	   	}
+	   	for (x=1;x<=14;x++)
+	   	{
+	   		if(temp[x] < posMenor)
+	   			posMenor = x;
 	   	}
 	   	
-	   	alert(mayor);
-	   }
-	   
-	   	   function fMenor()
-	   {
-	   	menor = numeros[0];
-	   	
-	   	for (x=1;x<=9;x++)
-	   	{
-	   		if(numeros[x] < menor)
-	   			menor = numeros [x];
-	   	}
-	   	
-	   	alert(menor);
-	   }
 
+	   alert(temp[posMayor]);
+	   alert(posMayor);
+
+	   }
 	</script>
 
 </head>
 
 <body>
 	<input name="Button1" type="button" 
-	 value="cargar 10 numeros" 
+	 value="cargar 10 tempeturas" 
 	 onclick="fCargar()" />
 	<input name="Button1" type="button" 
 	 value="sacar el mayor" 
-	  onclick="fMayor()" />
+	  onclick="fTempMayor()" />
 	<input name="Button1" type="button" 
-	 value="sacar el menor" 
-	  onclick="fMenor()" />
+	 value="sacar el mayor" 
+	  onclick="fTempMenor()" />
+
 
 </body>
 
