@@ -1,0 +1,9 @@
+-El primer for cuenta hasta 9
+	
+	-si se encuentra un numero se le hace (-1)
+
+	-el segundo for cuenta hasta 9
+
+		-cada vez que el numero aparece se suma 1 a veces
+
+-
