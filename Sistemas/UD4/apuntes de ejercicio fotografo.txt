@@ -1,0 +1,38 @@
+sudo su
+
+root@ibanjuarros:/home/ibanjuarros# mkdir -p /fotografo/cliente1 (enter)
+
+root@ibanjuarros:/home/ibanjuarros# mkdir -p /fotografo/cliente2 (enter)
+
+root@ibanjuarros:/home/ibanjuarros# groupadd gclientes (enter)
+
+root@ibanjuarros:/home/ibanjuarros# groupadd gcliente1 (enter)
+
+root@ibanjuarros:/home/ibanjuarros# groupadd gcliente2 (enter)
+
+root@ibanjuarros:/home/ibanjuarros# useradd -m -G gcliente1,gcliente2 fotografo (enter)
+
+root@ibanjuarros:/home/ibanjuarros# id fotografo (enter) para saber si lo has creado o no
+
+[usermod -G gclientes fotografo (enter)] /se omite/
+
+id fotografo
+
+root@ibanjuarros:/home/ibanjuarros# usermod -G gclientes,gcliente1,gcliente2 fotografo (enter)
+
+root@ibanjuarros:/home/ibanjuarros# useradd -m -g gcliente1 -G gclientes cliente1 (enter)
+hacer id
+
+root@ibanjuarros:/home/ibanjuarros# useradd -m -g gcliente2 -G gclientes cliente2 (enter)
+hacer id
+
+root@ibanjuarros:/home/ibanjuarros# ls -ld/fotografo/
+
+root@ibanjuarros:/home/ibanjuarros# chgrp gclientes /fotografo/
+
+root@ibanjuarros:/home/ibanjuarros# ls -ld/fotografo/
+
+root@ibanjuarros:/home/ibanjuarros# chmod 750 /fotografo/
+
+root@ibanjuarros:/home/ibanjuarros# ls -ld/fotografo/
+
