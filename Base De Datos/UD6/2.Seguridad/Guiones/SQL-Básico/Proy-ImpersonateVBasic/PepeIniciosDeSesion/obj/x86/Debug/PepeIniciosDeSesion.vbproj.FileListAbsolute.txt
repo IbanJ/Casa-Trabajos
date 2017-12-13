@@ -1,0 +1,17 @@
+C:\Users\Public\Documents\SQL SERVER\Seguridad\PepeIniciosDeSesion\PepeIniciosDeSesion\bin\Debug\PepeIniciosDeSesion.exe
+C:\Users\Public\Documents\SQL SERVER\Seguridad\PepeIniciosDeSesion\PepeIniciosDeSesion\bin\Debug\PepeIniciosDeSesion.pdb
+C:\Users\Public\Documents\SQL SERVER\Seguridad\PepeIniciosDeSesion\PepeIniciosDeSesion\bin\Debug\PepeIniciosDeSesion.xml
+C:\Users\Public\Documents\SQL SERVER\Seguridad\PepeIniciosDeSesion\PepeIniciosDeSesion\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Public\Documents\SQL SERVER\Seguridad\PepeIniciosDeSesion\PepeIniciosDeSesion\obj\x86\Debug\PepeIniciosDeSesion.Form1.resources
+C:\Users\Public\Documents\SQL SERVER\Seguridad\PepeIniciosDeSesion\PepeIniciosDeSesion\obj\x86\Debug\PepeIniciosDeSesion.Resources.resources
+C:\Users\Public\Documents\SQL SERVER\Seguridad\PepeIniciosDeSesion\PepeIniciosDeSesion\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Public\Documents\SQL SERVER\Seguridad\PepeIniciosDeSesion\PepeIniciosDeSesion\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Public\Documents\SQL SERVER\Seguridad\PepeIniciosDeSesion\PepeIniciosDeSesion\obj\x86\Debug\PepeIniciosDeSesion.exe
+C:\Users\Public\Documents\SQL SERVER\Seguridad\PepeIniciosDeSesion\PepeIniciosDeSesion\obj\x86\Debug\PepeIniciosDeSesion.xml
+C:\Users\Public\Documents\SQL SERVER\Seguridad\PepeIniciosDeSesion\PepeIniciosDeSesion\obj\x86\Debug\PepeIniciosDeSesion.pdb
+C:\Users\ignacio\Desktop\DHL\Contenidos\2. Seguridad\PepeIniciosDeSesion\PepeIniciosDeSesion\obj\x86\Debug\PepeIniciosDeSesion.exe
+C:\Users\ignacio\Desktop\DHL\Contenidos\2. Seguridad\PepeIniciosDeSesion\PepeIniciosDeSesion\obj\x86\Debug\PepeIniciosDeSesion.xml
+C:\Users\ignacio\Desktop\DHL\Contenidos\2. Seguridad\PepeIniciosDeSesion\PepeIniciosDeSesion\obj\x86\Debug\PepeIniciosDeSesion.pdb
+C:\Users\ignacio\Desktop\DHL\Contenidos\2. Seguridad\SQL-Básico\PepeIniciosDeSesion\PepeIniciosDeSesion\obj\x86\Debug\PepeIniciosDeSesion.exe
+C:\Users\ignacio\Desktop\DHL\Contenidos\2. Seguridad\SQL-Básico\PepeIniciosDeSesion\PepeIniciosDeSesion\obj\x86\Debug\PepeIniciosDeSesion.xml
+C:\Users\ignacio\Desktop\DHL\Contenidos\2. Seguridad\SQL-Básico\PepeIniciosDeSesion\PepeIniciosDeSesion\obj\x86\Debug\PepeIniciosDeSesion.pdb
