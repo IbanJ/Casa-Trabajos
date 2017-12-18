@@ -1,0 +1,11 @@
+samba	
+	"smbpasswd -a __"
+	-
+	-
+	"service smbd restart"
+	-
+	-
+	nano etc/network/interfaces
+	if down "emp0s3"
+	para reiniciar la red
+	if up "emp0s3"
