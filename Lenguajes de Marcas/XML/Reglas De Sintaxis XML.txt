@@ -1,0 +1,8 @@
+-Debe tener una declaracion de XML.
+-Tener una etiqueta de cabecera.
+-Las etiquetas deben tener otra etiqueta emparejada de cierre.
+-Los elementos son sensibles a las Mayusculas.
+-Todos los elementos deben ser cerrados.
+-Todos los elementos deben estas bien acurrucado.
+-Todos los valores de atributo deben estan entre comillas.
+-Debene ser utilizadas entidades para utilizar caracteres especiales.
