@@ -1,0 +1,10 @@
+Crear una tabla que va a tener una columna typada.
+
+1--> Abrir Visual Studio un sitio web para crear el contenido XML.
+
+2--> Segir las reglas del XML
+
+3--> Crear un XML to esquema mediante copiando y pegando el XML creado anteriormente sin haber copiado la primera linea. 
+		(NombreDelXML_XSD.xsd)
+
+4--> En sql Server Crear una tabla que contendra la columna XML typada (TYPED)   

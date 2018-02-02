@@ -1,0 +1,61 @@
+Programa				FORMATO:VERDANA tmñ:9
+
+- Hacer un programa que genere una tabla de 30000 filas.
+
+-->	SELECT * FROM (tabla) SIN PRIMARY KEY no utiliza indices:por lo tanto, al pedirle un solo dato busca por todas las paginas de datos. 	
+	SELECT * FROM (tabla) CON PRIMARY utiliza indices;por lo tanto, al pedirle un solo dato busca por los 
+			indices (varian el numero de indices segun el tamaño de la tabla).
+
+-->	ORDENES REGISTRADAS (CUESTAN MAS, SE ESCRIBEN EN EL LOG)
+	INSERT
+	UPDATE
+	DELETE
+
+-->	ORDENES NO REGISTRADAS (ESTAN HECHAS RAPIDAS)
+	SELECT * INTO
+
+ 
+
+-->	*CANCION DEL WHILE*
+	WHILE ...
+	BEGIN
+		(...)
+	END
+
+
+
+
+
+
+
+-->	*CANCION DE CREATE PROCEDURE*
+	CREATE PROCEDURE
+	
+	AS	
+
+	BEGIN
+	
+	END
+
+
+-->	*CANCION DE INSERT*
+	INSERT INTO (TABLAS) (COLUMNAS)
+		VALUES (@x, '??')
+
+HISTORIA DE HOY
+
+- Queriamos un programa que generara 30000 filas.
+
+- Muchas veces la generacion se hace con un programa que genera filas de forma masiva.
+
+- Si son ordenes insert al ser una orden registrada ralentiza mucho el proceso (por el coste de escritura en el LOG)
+
+- Si haces una DELETE de una tabla no liberas espacio sino que acumulas mas espacio dado que DELETE al ser una orden registrada
+  se guarda en el LOG dentro del LDF. Ademas las paginas de datos no se borran sino que se quedan dentro de la tabla 
+  por si se sigen metiendo informacion en las tablas.
+- Despues creamos una tabla sin ningun indice.
+
+- Las consultas sin un Where recuperan todas las paginas de datos.
+
+- Las consultas con clausula where mejoran el rendimiento basado en la columna con una clausula WHERE dado que 
+  recuperaran solo las paginas de datos que tendagn que ver con la clausula WHERE.

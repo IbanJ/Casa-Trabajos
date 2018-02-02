@@ -1,8 +1,32 @@
+Estar bien formado: tiene que respetar las normas del xml si no es asi dara error.
+
+
 -Debe tener una declaracion de XML.
+
 -Tener una etiqueta de cabecera.
+
 -Las etiquetas deben tener otra etiqueta emparejada de cierre.
+
 -Los elementos son sensibles a las Mayusculas.
+
 -Todos los elementos deben ser cerrados.
+
 -Todos los elementos deben estas bien acurrucado.
+
 -Todos los valores de atributo deben estan entre comillas.
+
 -Debene ser utilizadas entidades para utilizar caracteres especiales.
+
+
+
+Los XML pasan dos FASES DE verificacion -una de Analisis -otra de Validacion:
+
+1--> La primera es la que pasan todos los XML es si esta bien formado.(Analisis)
+
+2--> La segunda es la que tiene que segir los requisitos que pide el XSD.(Validacion)
+
+
+--> El XML es una forma muy util de almacenar datos dado que es UNIVERSAL y cualquier dispositivo puede leerlo.
+
+
+--> XML nativo significa que esta relacionado o en el nivel de las bases de datos.

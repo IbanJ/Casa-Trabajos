@@ -1,0 +1,11 @@
+Apuntes de creacion de XML		Columnas de XML:
+				Tipadas(TYPED): Siguen las limitaciones
+					 del XSD
+				SIN Tipar(UNTYPED):
+					No siguen las limitaciones
+1.Paso:Crear xml (Reglas de sintaxis)
+2.Paso: Dar informacion al xml
+3.Paso:XML a schema(XSD)
+4.Paso:Modificar el XSD en caso de querer modificar
+	las limitaciones del XML
+5.Paso: Crear tabla en sql (CREATE SCHEMA beforehand)
