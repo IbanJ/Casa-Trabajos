@@ -1,0 +1,40 @@
+--> FUNCIONES:
+2 Tipos de Functions:
+
+-- Scalar
+??
+create
+
+returns @datos table (
+
+as
+
+begin
+	return
+	as
+	select
+	from
+	where
+end
+-- Table
+??
+	Cuando ultilizar una funcion, un procedimiento almacenado o una vista.
+	-- La funcion la puedo utilizar en varios contextos. Una funcion tiene multiusos (reutilizacion).
+
+
+Ejemplo: 
+--> CREATE FUNCTION F_5 ()
+
+RETURNS TABLE 
+
+AS
+
+	RETURN (SELECT TOP 100 PERCENT BirthDate, COUNT(*) AS Numero
+			FROM AdventureWorks2014.HumanResources.Employee
+			GROUP BY BirthDate
+			ORDER BY BirthDate)
+
+PREGUNTA DE EXAMEN YOU FUCKER!!
+
+-->UNA TABLA, UNA VISTA, UNA FUNCION DE TIPO TABLE Y UNA SUBSELECT DE TIPO TABLA DERIVADA
+

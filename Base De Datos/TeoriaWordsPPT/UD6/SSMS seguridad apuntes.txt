@@ -1,0 +1,9 @@
+Para que sirven los schemas?!?!?!? (NO CLICKBAIT)
+
+
+	1. Para facilitar la organicacion de las tablas.
+	2. Para facilitar la gestion de la seguridad.
+
+-SOLAMENTE PUEDO TENER UN USUARIO ASOCIADO A UN LOGIN.
+
+-

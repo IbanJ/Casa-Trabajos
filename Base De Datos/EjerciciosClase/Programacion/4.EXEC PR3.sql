@@ -1,0 +1,3 @@
+DECLARE @RDO int
+exec @RDO= PR3 '02/02/2004', '05/06/2005'
+print @RDO

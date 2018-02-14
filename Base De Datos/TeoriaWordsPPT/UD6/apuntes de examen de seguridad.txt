@@ -1,0 +1,63 @@
+--vistas sirven para acceder a bases de datos mediante ella y de esta manera filtran.
+	Sirven para la seguridad.
+
+-- esquemas para facilitar la gestion de la seguridad. En vez de hacer 20 grant select
+	se haria solo 1 grant select dirigida al esquema 
+-- principal vs users
+
+pricipal: es una entidad a la que se le pueden asignar o quitar permisos 
+ej:un usuario de BD o un rol o un login
+asegurable: es un objeto de concesion de permisos y denegaciones
+ej: una tabla, una vista, un esquema.
+
+--login vs users
+
+login esta al nivel del motor el user esta al nivel de las bases de datos
+
+--logins de windows y de sql auntificazion
+
+windows automaticamente con el ticket de windows, sql necesitas usuario y contraseña
+
+
+los logins de windows pueden ser individuales o de grupo 
+
+windows detecta nuestro codigo de grupo (nos deja entrar) 
+y registra internamente por el ticket individual
+
+--Un rol es una agrupacion de permisos,
+ por tanto los roles se pueden otorgar a pricipales
+(logins,usuarios, otros roles)
+
+-- 2 TIPOS DE ROLES cuando entramos a las bases de datos.
+
+Roles de servidor (a nivel de servidor) 
+y Roles de base de datos (a nivel de base de datos).
+
+Roles de servidor: DB creator(creador de base de datos)
+		   sysadmin (el rol que agrupa a todos los permisos)
+
+
+Roles de base de datos: DB_datareader(a quien se lo des puede hacer selects
+				      vistas de esa base de datos)  
+
+Se pueden modificar los roles de bases de datos y de servidor de sql server?
+no se pueden modificar en SQL (en oracle si)
+
+Se pueden crear nuevos roles de bases de datos y de servidor sql server?
+si,se pueden eliminar y modificar los roles que creemos nosotros. 
+
+HAY 3 COMANDOS PARA CONCEDER PERMISOS
+
+GRANT (grant delete on clientes to juancarlos)
+DENY
+REVOQUE
+
+un rol en el que hay una serie de permisos
+
+grant select on clientes to "rol especial"(juancarlos es miembro)
+deny on clientes to "rol especial"
+
+conclusion: juancarlos esta en rol especial por lo que no puede hacer selects
+	  hay que sacarlo para que pueda hacer selects
+concesion + denegacion = denegacion
+concesion + revocacion(degradacion) = concesion
