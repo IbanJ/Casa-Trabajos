@@ -1,0 +1,14 @@
+Convertir un codigo binario ( los datos de una base de datos ) en un XML ( no nativo ).
+
+         --- El XML puede ser nativo o no nativo 
+		
+	1.-- El XML no nativo es el que se crea / trabaja a nivel de fichero
+	2.-- El XML nativo es el que esta vinculado a una base de datos ( es que esta almacenado en 
+							    una columna o en una tabla )
+
+ Union : sirve para "unir" (lo que realmente hace es mostrar las 2 selects ) dos selects , pero , 
+                en la clausula select tiene que haber la misma cantidad
+               de columnas ( example : Select 1 ; EmployeeID , FirstName y  Select 2 ; ProductID , Productname 
+              y además estas columnas tienen que ser del mismo tipo de datos.( Example : Varchar ,INT y Varchar,INT )
+	
+

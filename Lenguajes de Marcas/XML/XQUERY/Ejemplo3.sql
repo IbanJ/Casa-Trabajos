@@ -1,0 +1,3 @@
+SELECT pk, PLANTA 
+FROM XML.PLANTAS
+WHERE planta.exist('/CATALOG/PLANT/COMMON[.="Hepatica"]') = 1

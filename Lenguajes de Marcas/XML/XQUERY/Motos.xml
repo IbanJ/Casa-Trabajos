@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Motos>
+
+  <Moto>
+    <CodMoto>1</CodMoto>
+    <CodCliente>1</CodCliente>
+    <Marca>Honda</Marca>
+    <Modelo>Passion</Modelo>
+    <Matricula>7251-GXE</Matricula>
+    <Color>Blanco</Color>
+  </Moto>
+
+  <Moto>
+    <CodMoto>2</CodMoto>
+    <CodCliente>2</CodCliente>
+    <Marca>Honda</Marca>
+    <Modelo>Zoomer</Modelo>
+    <Matricula>1454-HTY</Matricula>
+    <Color>Rojo</Color>
+  </Moto>
+
+  <Moto>
+    <CodMoto>3</CodMoto>
+    <CodCliente>3</CodCliente>
+    <Marca>Honda</Marca>
+    <Modelo>Scoopy</Modelo>
+    <Matricula>C5-120-BGT</Matricula>
+    <Color>Gris</Color>
+  </Moto>
+
+  <Moto>
+    <CodMoto>4</CodMoto>
+    <CodCliente>4</CodCliente>
+    <Marca>Honda</Marca>
+    <Modelo>SH</Modelo>
+    <Matricula>6521-HRT</Matricula>
+    <Color>Negro</Color>
+  </Moto>
+
+</Motos>
