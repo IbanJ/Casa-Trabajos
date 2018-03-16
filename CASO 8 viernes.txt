@@ -1,0 +1,13 @@
+-fuck you merchan
+
+-Un empleado ha cambiado de puesto, 
+asique en la columna JOB-HISTORY dara de alta en: 
+
+EMPLOYEE_ID, START_DATE, JOB_ID, DEPARTMENT_ID.
+
+
+-El 1 de enero de 2019 se cambia otra vez: se cambian los atributos de las filas anteriores.
+
+
+- El caso llevara acabo este proceso, puede que programemos en C, y lo que haremos sera 
+la aplicacion que cambie  

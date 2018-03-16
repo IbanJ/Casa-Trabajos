@@ -1,6 +1,3 @@
-Hacer ejercicios de lvm con la maquina de ubuntu
-  -LVM 2 crear dos discos de 8gb darles formato y manipularlo mediante comandos lvm
-  en un volumen logico.
-Ordenar los apuntes de XML de lenguaje de marcas:
--Ordenar los ejercicios de XQUERY en 1.Values 2.Query
--Leerlos y intentar hacer selects con XQUERY
+- Ordena las consultas de XQUERY entre value, exist, query.
+- Pon la base de datos de ADVENTUREWORKS2014
+- 
