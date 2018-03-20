@@ -1,0 +1,12 @@
+E:\Iban\Casa trabajos\FOL\Proyecto 2\EjemploFormulario\EjemploFormulario\EjemploFormulario\bin\Debug\EjemploFormulario.exe.config
+E:\Iban\Casa trabajos\FOL\Proyecto 2\EjemploFormulario\EjemploFormulario\EjemploFormulario\bin\Debug\EjemploFormulario.exe
+E:\Iban\Casa trabajos\FOL\Proyecto 2\EjemploFormulario\EjemploFormulario\EjemploFormulario\bin\Debug\EjemploFormulario.pdb
+E:\Iban\Casa trabajos\FOL\Proyecto 2\EjemploFormulario\EjemploFormulario\EjemploFormulario\bin\Debug\EjemploFormulario.xml
+E:\Iban\Casa trabajos\FOL\Proyecto 2\EjemploFormulario\EjemploFormulario\EjemploFormulario\obj\Debug\EjemploFormulario.vbprojResolveAssemblyReference.cache
+E:\Iban\Casa trabajos\FOL\Proyecto 2\EjemploFormulario\EjemploFormulario\EjemploFormulario\obj\Debug\EjemploFormulario.Form1.resources
+E:\Iban\Casa trabajos\FOL\Proyecto 2\EjemploFormulario\EjemploFormulario\EjemploFormulario\obj\Debug\EjemploFormulario.Resources.resources
+E:\Iban\Casa trabajos\FOL\Proyecto 2\EjemploFormulario\EjemploFormulario\EjemploFormulario\obj\Debug\EjemploFormulario.vbproj.GenerateResource.Cache
+E:\Iban\Casa trabajos\FOL\Proyecto 2\EjemploFormulario\EjemploFormulario\EjemploFormulario\obj\Debug\EjemploFormulario.exe
+E:\Iban\Casa trabajos\FOL\Proyecto 2\EjemploFormulario\EjemploFormulario\EjemploFormulario\obj\Debug\EjemploFormulario.xml
+E:\Iban\Casa trabajos\FOL\Proyecto 2\EjemploFormulario\EjemploFormulario\EjemploFormulario\obj\Debug\EjemploFormulario.pdb
+E:\Iban\Casa trabajos\FOL\Proyecto 2\EjemploFormulario\EjemploFormulario\EjemploFormulario\obj\Debug\EjemploFormulario.FrmCategorias.resources

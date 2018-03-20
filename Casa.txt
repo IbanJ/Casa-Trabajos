@@ -1,3 +1,5 @@
 - Ordena las consultas de XQUERY entre value, exist, query.
 - Pon la base de datos de ADVENTUREWORKS2014
 - Repasar la unidad 6 de sistemas para el examen del jueves
+- Borra los programas que no necesitas
+- INTENTA HACER FOL
